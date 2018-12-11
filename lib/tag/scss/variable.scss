@@ -1,0 +1,38 @@
+////
+/// @module vext-demo: 
+/// @tag vext-demo
+/// @category component
+/// @family basic
+/// @varPrefix $--tag-
+/// @classPrefix el-tag
+////
+
+$--tag-prefix: '.el-tag';
+
+/// background color
+/// @namespace statement/default
+$--tag-fill: rgba($--color-primary, 0.10) !default;
+
+/// border color
+/// @namespace statement/default
+$--tag-border: rgba($--color-primary, 0.20) !default;
+
+/// font size
+/// @namespace statement/default
+$--tag-font-size: 12px !default;
+
+/// border radius
+/// @namespace statement/default
+$--tag-border-radius: 4px !default;
+
+/// padding
+/// @namespace statement/default
+$--tag-padding: 0 10px !default;
+
+/// background color
+/// @namespace statement/info
+$--tag-info-fill: rgba($--color-info, 0.10) !default;
+
+/// border color
+/// @namespace statement/info
+$--tag-info-border: rgba($--color-info, 0.20) !default;

@@ -1,0 +1,36 @@
+{
+  "name": "fusion-el-tag-demo",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "repository": {
+    
+  },
+  "author": "iamkun <kunhello@outlook.com>",
+  "scripts": {
+    "dev": "vext-bin dev",
+    "build": "vext-bin build",
+    "test": "vext-bin test",
+    "prepublish": "rm -fr test/coverage && tnpm run build",
+    "contributors": "ali-contributors"
+  },
+  "main": "lib/index",
+  "ci": {
+    "type": "gitlab",
+    "version": "6",
+    "docker": true,
+    "fntest": false,
+    "command": "test"
+  },
+  "devDependencies": {
+    "@ali/ci": "^3.12.2",
+    "@alife/vext-demo-helper": "^0.x",
+    "ali-contributors": "^2.1.1",
+    "babel-preset-env": "^1.x"
+  },
+  "dependencies": {
+    "vue": "^2.x"
+  }
+}
