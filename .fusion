@@ -22,6 +22,6 @@
     }
   },
   "variables": { // 所有变量文件相对于组件库根目录的地址，以组件维度枚举
-    "common": "lib/common/var.scss"
+    "color": "lib/common/_color.scss"
   }
 }
