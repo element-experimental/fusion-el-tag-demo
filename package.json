@@ -1,13 +1,10 @@
 {
   "name": "fusion-el-tag-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "keywords": [
-  ],
+  "keywords": [],
   "license": "MIT",
-  "repository": {
-    
-  },
+  "repository": {},
   "author": "iamkun <kunhello@outlook.com>",
   "scripts": {
     "dev": "vext-bin dev",
