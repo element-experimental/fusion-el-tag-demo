@@ -8,7 +8,7 @@
   "author": "iamkun <kunhello@outlook.com>",
   "scripts": {
     "dev": "vext-bin dev",
-    "build": "vext-bin build",
+    "build": "vext-bin build && vext-bin build theme",
     "test": "vext-bin test",
     "prepublish": "rm -fr test/coverage && tnpm run build",
     "contributors": "ali-contributors"

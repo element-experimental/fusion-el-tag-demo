@@ -229,7 +229,7 @@
 /* BEM
  -------------------------- */
 .el-tag {
-  background-color: rgba(64, 158, 255, 0.1);
+  background-color: #DEE8FF;
   display: inline-block;
   padding: 0 10px;
   height: 32px;

@@ -522,7 +522,10 @@ $--tooltip-padding: 10px !default;
 /* Tag
 -------------------------- */
 
-
+$--tag-padding: 0 10px !default;
+$--tag-font-size: 12px !default;
+$--tag-border-radius: 4px !default;
+$--tag-border: rgba($--color-primary, 0.20) !default;
 $--tag-color: $--color-primary !default;
 $--tag-primary-fill: rgba($--color-primary, 0.10) !default;
 $--tag-primary-border: rgba($--color-primary, 0.20) !default;
@@ -532,6 +535,8 @@ $--tag-success-fill: rgba($--color-success, 0.10) !default;
 $--tag-success-border: rgba($--color-success, 0.20) !default;
 $--tag-success-color: $--color-success !default;
 
+$--tag-info-fill: rgba($--color-info, 0.10) !default;
+$--tag-info-border: rgba($--color-info, 0.20) !default;
 $--tag-info-color: $--color-info !default;
 
 $--tag-warning-fill: rgba($--color-warning, 0.10) !default;
