@@ -1,6 +1,5 @@
 ////
-/// @module vext-demo: 
-/// @tag vext-demo
+/// @module tag: 标签 
 /// @category component
 /// @family basic
 /// @varPrefix $--tag-
@@ -11,28 +10,8 @@ $--tag-prefix: '.el-tag';
 
 /// background color
 /// @namespace statement/default
-$--tag-fill: rgba($--color-primary, 0.10) !default;
-
-/// border color
-/// @namespace statement/default
-$--tag-border: rgba($--color-primary, 0.20) !default;
-
-/// font size
-/// @namespace statement/default
-$--tag-font-size: 12px !default;
-
-/// border radius
-/// @namespace statement/default
-$--tag-border-radius: 4px !default;
-
-/// padding
-/// @namespace statement/default
-$--tag-padding: 0 10px !default;
+$--tag-fill: $color-brand1-1 !default;
 
 /// background color
 /// @namespace statement/info
-$--tag-info-fill: rgba($--color-info, 0.10) !default;
-
-/// border color
-/// @namespace statement/info
-$--tag-info-border: rgba($--color-info, 0.20) !default;
+$--tag-info-fill: $color-brand1-6 !default;
