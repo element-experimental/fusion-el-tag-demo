@@ -1,27 +1,27 @@
 {
-  "engine": "sass", // 基础库渲染引擎
-  "publish-template": "@alifd/theme-template", // 基础库默认发布模板
-  "class-prefix": ".el", // 默认的 class 前缀，带 . 不带 -，$css-prefix 与之保持一致
-  "import": {  // 入库文件
-    "sources": {  // 组件scss入库文件
-      "dir": "lib", // 相对于组件库根目录的地址  例如组件库目录为 lib/{components}
-      "entry-file": { // 相对于组件根目录的文件地址 {components}/lib/index.scss
-        "sass": "lib/index.scss"
+  "engine": "sass",
+  "publish-template": "@alifd/theme-template",
+  "class-prefix": ".el", 
+  "import": { 
+    "sources": {  
+      "dir": "lib", 
+      "entry-file": { 
+        "sass": "index.scss"
       }, 
-      "entries": { // 默认为空，如果存在不符合 {dir}/{components}/{entry-file} 的scss入口文件
+      "entries": {
       }
     },
-    "demos": { // 组件主题demo入库文件
-      "dir": "demo", // 同上
-      "entry-file": { // 同上
+    "demos": { 
+      "dir": "demo", 
+      "entry-file": { 
         "html": "index.html",
         "deps": "deps.json"
       }, 
-      "entries": {  // 同上，不符合规范的才需要写，默认为空
+      "entries": { 
       }
     }
   },
-  "variables": { // 所有变量文件相对于组件库根目录的地址，以组件维度枚举
+  "variables": {
     "color": "lib/common/_color.scss",
     "tag": "lib/tag/scss/variable.scss"
   }
