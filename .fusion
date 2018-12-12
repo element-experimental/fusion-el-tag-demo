@@ -12,7 +12,7 @@
       }
     },
     "demos": { // 组件主题demo入库文件
-      "dir": "theme", // 同上
+      "dir": "demo", // 同上
       "entry-file": { // 同上
         "html": "index.html",
         "deps": "deps.json"
