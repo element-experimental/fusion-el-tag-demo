@@ -60,4 +60,4 @@ window.renderDemo = function (lang) {
 };
 
 renderDemo();
-initDemo('button');
+initDemo('tag');
